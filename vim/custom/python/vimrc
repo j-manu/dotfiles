@@ -1,0 +1,15 @@
+set expandtab
+"Autoindentation
+set autoindent
+"use 2 spaces when using autoindent/cindent
+set shiftwidth=4
+"use the same value as shiftwidth
+set softtabstop=4
+"use 2 char positions for a TAB
+set tabstop=4
+"allow backspacing over identatiom, end-of-line, and start-of-line
+set backspace=2
+source $HOME/.vim/custom/python/pydoc.vim
+source $HOME/.vim/custom/python/python.vim
+source $HOME/.vim/custom/python/python_fold.vim
+set complete+=k$HOME/.vim/custom/python/pydiction.py isk+=.,( 
